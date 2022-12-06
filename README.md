@@ -3,15 +3,24 @@
 A learning management and online assessment system for academic education.
 
 
-
-
-
 ## Features
 
 - The administrator adds courses, teachers, and students, as well as assigns them courses.
 - The teacher prepares course content, makes announcements, assigns homework and quizzes, takes attendance, and so on. A teacher can view the assessment details and analyses.
 - Using the access key, students can enrol in courses, view course content, engage in tests, and view their outcomes in detail.
 - A section for both the teacher and the student to discuss.
+
+
+Login as admin and add some courses, teacher and students.
+
+# Admin Login for Administration:  ( http://127.0.0.1:8000/admin )
+Username : adani_admin
+Password : qwertyuiop10
+
+
+# Student Login for Usecase:    ( http://127.0.0.1:8000/login )
+Id : 1234
+Password: 12345
 
 ## Relational Schema
 ![schema](https://user-images.githubusercontent.com/87283264/187967219-55bea00e-3151-488a-a4be-d2a95b9d8a5c.png)
@@ -95,11 +104,7 @@ python manage.py runserver
 ```
 Now the project should be running on http://127.0.0.1:8000/
 
-Login as admin and add some courses, teacher and students.
 
-Demo : https://youtu.be/NyL2ajUNxYk
-
-## License
 
 
 
