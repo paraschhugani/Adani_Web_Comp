@@ -13,12 +13,12 @@ A learning management and online assessment system for academic education.
 
 Login as admin and add some courses, teacher and students.
 
-# Admin Login for Administration:  ( http://127.0.0.1:8000/admin )
+## Admin Login for Administration:  ( http://127.0.0.1:8000/admin )
 Username : adani_admin
 Password : qwertyuiop10
 
 
-# Student Login for Usecase:    ( http://127.0.0.1:8000/login )
+## Student Login for Usecase:    ( http://127.0.0.1:8000/login )
 Id : 1234
 Password: 12345
 
