@@ -25,6 +25,36 @@ A learning management and online assessment system for academic education.
 
 ## UI
 
+User
+- HOME PAGE
+
+- ONLINE PORTAL LOG-IN
+
+- PROFILE
+
+- DASHBOARD
+
+- DEPARTMENTS
+
+- COURSES
+
+- QUIZ
+
+- COURSE DISCUSSION FORM
+
+- PAYMENT
+
+https://user-images.githubusercontent.com/51089028/206000544-a3f56687-d899-4843-b947-68cec8447a17.mov
+
+
+ADMIN PORTAL 
+  - LOGIN
+  
+  - ADMINISTRATION
+  
+  - ADMIN PAGE- QUIZ
+  
+  - ADMIN PAGE- STUDENT
 
 ## Run Locally
 
