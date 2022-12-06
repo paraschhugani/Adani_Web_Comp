@@ -1,0 +1,149 @@
+nav,
+header,
+footer{
+    display: block;
+}
+
+body{
+    background-image: linear-gradient(to right, #0B74B0, #75479C, #BD3861);
+    line-height: 1;
+    margin: 0;
+}
+
+.body{
+    background-color: whitesmoke;
+    opacity:.8;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+
+h1{
+    color: #4e5152;
+}
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: whitesmoke;
+  overflow-x: hidden;
+  padding-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  background-color: #A5AEB5;
+    color:#fff;
+}
+
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+.defaultimg img{
+    max-width: 700px;
+    padding-top: 40px;
+    padding-left: 400px;
+    padding-bottom: 20px;
+}
+
+
+div.fixed {
+  position: fixed;
+  width: 15%;
+  bottom: 10px;
+} 
+
+.fixed a{
+    display: block;
+}
+
+li{
+    list-style:none;
+    display: inline-block;
+    margin: 3px 5px;
+    border-radius: 50%;
+    color: #818181;
+}
+
+blockquote{
+  font-size: 1.4em;
+  width:60%;
+  margin:50px auto;
+  font-family:Open Sans;
+  font-style:italic;
+  color: #555555;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid #0693e3 ;
+  line-height:1.6;
+  position: relative;
+  background:#EDEDED;
+}
+
+blockquote::before{
+  font-family:Arial;
+  content: "\201C";
+  color:#78C0A8;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote span{
+  display:block;
+  color:#333333;
+  font-style: normal;
+    font-weight: bold;
+  margin-top: 1em;
+    font-size: 18px;
+}
+
+.main-info{
+   padding-right: 150px;
+}
+
+.main-info p{
+    color: #4e5152;
+    margin-bottom: 0;
+}
+@media screen and (max-width:680px){
+  .main{
+    margin-left: 100px;
+  }
+    .sidenav {
+      padding-top: 15px;
+      width: 100px;
+    }
+  .sidenav a {font-size: 10px;}
+    
+    .defaultimg img{
+        max-width: 650px;
+        padding-left: 0;
+    }
+    .blockquote{
+      width: 100px;
+      margin-left: 0;
+      font-size: 12px;
+  }
+}

@@ -1,0 +1,279 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Adani University</title>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="{% static 'images/icon-logo.png' %}" type="image/icon type">
+        <link rel="stylesheet" href="{% static 'styles/home_page.css' %}">
+        <script src="https://kit.fontawesome.com/6cd93c1d95.js" crossorigin="anonymous"></script>
+        
+        
+    </head>
+    <body>
+        <div class="body" id="main">
+            <div class="">
+                <img src="http://www.aii.ac.in/aiie/wp-content/uploads/2022/09/adani-latest.png" alt="Adani Group" title="Adani Institute of Infrastructure" width="500px">
+            </div>
+            <div>
+                <nav>
+                    <ul class= "topleft" id="dropDownClick"> 
+                        <li><a href= "/">Home</a></li>
+                        <li><a href= "/institute">Institute</a></li>
+                        <li><a href= "/about">About Us</a></li>
+                        <li><a href= "Contact">Contact</a></li>
+                        <li><a href= "/login">Online Learning Portal</a></li>
+                        <li class="topright">
+                            <div id="mySidenav" class="sidenav topright">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                                <a href="#">Facilities</a>
+                                <a href="#">Programs</a>
+                                <a href="#">Job Ready Learning Skills</a>
+                                <a href="#">Placement</a>
+                            </div>
+                            <span class="trigram" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                        </li>
+                        <li class="trigram"><a href="javascript:void(0);" onclick="dropDownMenu()">&#9776;</a></li>
+  
+                    </ul>
+                </nav>
+            </div>
+            
+            <!div style="text-align:center">
+                <!span class="dot" onclick="currentSlide(1)"><!/span> 
+                <!span class="dot" onclick="currentSlide(2)"><!/span> 
+                <!span class="dot" onclick="currentSlide(3)"><!/span> 
+            <!/div>
+
+            <div class="slideshow-container" >
+
+                <div class="mySlides">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="{% static 'images/adani1.jpeg' %}" style="width:100%">
+                  
+                </div>
+                
+                <div class="mySlides">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="{% static 'images/adani2.jpeg' %}" style="width:100%">
+                  
+                </div>
+                
+                <div class="mySlides">
+                  <div class="numbertext">3 / 3</div>
+                  <img src="{% static 'images/adani3.jpeg' %}" style="width:100%">
+                  
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+                
+                <div class="scrolldown">
+                <a href="#section2"><div class="icon-scroll"></div></a>
+            </div>
+                
+            </div>
+                
+            
+            
+            
+            
+            <br>
+            <br>
+            <br>
+            
+            <div id="section2">
+            <div class="aboutus">
+                <h1>Adani University</h1><br>
+                <p> With a vision to educate and empower the youth, to encourage transformative research that focuses on real-world problems, and to contribute to global sustainability via excellence at all levels, the Adani Group – one of India’s largest transport and utility infrastructure conglomerates with inspiration from the infrastructure and visionaries of India – Shri Gautambhai Adani and Smt. Pritiben Adani – has established the Adani University in the enterprising State of Gujarat in India.</p><a href="About%20Us.html" style="float: right" >&#8505;More Info!</a>
+            </div>
+                
+                <br>
+                <br>
+                
+                <section>
+                    <div class="institute">
+                        <div class="intro">
+                            <button><a href="Institute.html#section-1">Faculty of Engineering Sciences and Technology</a></button>
+                            <button><a href="Institute.html#secttion-2">Faculty of Management Sciences</a></button>
+                            <button><a href="Institute.html#section-3">Doctoral Programs</a></button>
+                        </div>
+                    </div>
+                </section>
+            
+                <br>
+                <br>
+                
+            <h1>News</h1>
+            <div id="slider">
+                <ul>
+                  <li>
+                  <div class="slider-container">
+                    <h2>23 June</h2>
+                                        <p>Launch of Adani University and Global Education Forum</p>
+                  </div>
+                  </li>
+                  
+                  
+                    <li>
+                    <div class="slider-container">
+                    <h2>03 Apr</h2>
+                                        <p>Adani University accorded status by Gujarat Legislative Assembly</p>
+                  </div>
+                  </li>
+                    <li>
+                    <div class="slider-container">
+                    <h2>28 Jan</h2>
+                                        <p>AIIM announces Admission Notification for PGDM 2023-2024</p>
+                  </div>
+                  </li>
+                    <li>
+                    <div class="slider-container">
+                    <h2>23 June</h2>
+                                        <p>Launch of Adani University and Global Education Forum</p>
+                  </div>
+                  </li>
+                   <li>
+                    <div class="slider-container">
+                    <h2>03 Apr</h2>
+                                        <p>Adani University accorded status by Gujarat Legislative Assembly</p>
+                  </div>
+                  </li>
+                   <li>
+                    <div class="slider-container">
+                    <h2>28 Jan</h2>
+                                        <p>AIIM announces Admission Notification for PGDM 2023-2024</p>
+                  </div>
+                  </li>
+                </ul>
+                </div>
+    
+            <h1>Events</h1>
+            <section class="grid-1">
+                <div class="flip-container item1">
+                    <div class="flipper">
+                        <div class="front">
+                            <img src="{% static 'images/flip1.jpeg' %}" style="width: 100%">
+                        </div>
+                        <div class="back">
+                            1 back
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-container item2">
+                    <div class="flipper">
+                        <div class="front">
+                            <img src="{% static 'images/flip2.jpeg' %}" style="width: 100%">
+                        </div>
+                        <div class="back">
+                            2 back
+                        </div>
+                    </div>
+                </div>
+                <div class="flip-container item3">
+                    <div class="flipper">
+                        <div class="front">
+                            <img src="{% static 'images/flip3.jpeg' %}" style="width: 100%">
+                        </div>
+                        <div class="back">
+                            3 back
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <br>
+        <div class="info">
+            <div class="box">
+                <li><img src="https://adaniuni.ac.in/wp-content/uploads/2022/06/01.png"><br><br><p>42+ Teachers</p></li>
+                <li><img src="https://adaniuni.ac.in/wp-content/uploads/2022/06/02.png"><br><br><p>6k+ Students Enrolled</p></li>
+                <li><img src="https://adaniuni.ac.in/wp-content/uploads/2022/06/03.png"><br><br><p>40+ Industry Connections</p></li>
+                <li><img src="https://adaniuni.ac.in/wp-content/uploads/2022/06/04.png"><br><br><p>5k+ Placements</p></li>
+            </div>
+        </div>    
+        <br>
+        <footer>
+            <div class="row">
+                <div class="col-3">
+                    <h2>About Us</h2>
+                    <a href="">Adani University</a>
+                    <a href="">Adani Group</a>
+                </div>
+                <div class="col-3">
+                    <h2>Useful Links</h2>
+                    <a href="">Facilities</a>
+                    <a href="">Programs</a>
+                    <a href="">Placements</a>
+                </div>
+                <div class="col-6">
+                    <h2>Contact Us</h2>
+                    <h6>Adani University</h6>
+                    <a href="https://www.google.com/maps/place/Adani+University/@23.1565045,72.5444657,17z/data=!3m1!4b1!4m5!3m4!1s0x395c281f586c7591:0xd9d8f99ae1e81c29!8m2!3d23.1565045!4d72.5444657">Shantigram Township, Nr. Vaishnodevi Circle<br>SG Highway, Ahmedabad-382421<br>Gujarat, India</a><br><br>
+                    <a href="Tel: +91 79 2555 6592">Tel: +91 79 2555 6592</a>
+                    <div classs="container">
+                        <li><a href="https://www.facebook.com/AdaniOnline/"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/AdaniOnline?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCE9B3d2_VpNZ2KupqxjyxQA"><i class="fa-brands fa-youtube"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/adani-group/?originalSubdomain=in"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://www.instagram.com/adanionline/?hl=en"><i class="fa-brands fa-instagram"></i></a></li>      
+                    </div>
+                </div>
+            </div>
+        </footer>
+        </div>
+        </div>
+        <script>
+            function dropDownMenu(){
+                var x= document.getElementById("dropDownClick");
+                if(x.className === "topleft"){
+                    x.className += " responsive";
+                    /*new class is form with if condition*/
+                }
+                else{
+                    x.className = "topleft";
+                }
+            }
+            function openNav() {
+                document.getElementById("mySidenav").style.width = "350px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidenav").style.width = "0";
+            }
+
+            
+
+        </script>
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+    </script>
+    
+    </body>
+</html>

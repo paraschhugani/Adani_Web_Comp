@@ -1,0 +1,46 @@
+{% extends "admin/base.html" %}
+{% load i18n %}
+{% load static %}
+
+{% block title %}Adani University{%  endblock %}
+
+{% block branding %}
+<h1 id="site-name">
+    <img src="{% static 'images/icon/uni_logo.png' %}" alt="" width="50px" srcset="">
+    Adani University Administration</h1>
+{% endblock %}
+{% block extrahead %}
+    <style type="text/css">
+        #header #branding h1{
+                background: None;  
+
+        }
+
+        #header {
+            background-image: linear-gradient(to right, #0B74B0, #75479C, #BD3861) !important;
+            color: white !important;
+        }
+
+        #header h1{
+            color: white !important;
+            font-weight: bold;
+        }
+        #header a{
+            /* color: black !important; */
+            text-decoration: underline !important;
+        }
+
+        #header button{
+            /* color: black !important; */
+            /* text-decoration: underline !important; */
+        }
+
+        caption{
+            background-image: linear-gradient(to right, #0B74B0, #75479C, #BD3861) !important;
+            /* color: black !important; */
+        }
+        caption a{
+            /* color: black !important; */
+        }
+    </style>
+{% endblock %}
