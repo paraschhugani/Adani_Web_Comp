@@ -91,7 +91,7 @@ ADMIN PORTAL
 
 1. Clone the project
 ```bash
-git clone https://github.com/nz-m/Adani_University-SWE.git
+git clone https://github.com/paraschhugani/Adani_Web_Comp.git
 ```
 2. Go to the project directory
 ```bash
