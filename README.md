@@ -95,7 +95,7 @@ git clone https://github.com/paraschhugani/Adani_Web_Comp.git
 ```
 2. Go to the project directory
 ```bash
-cd Adani_University-SWE
+cd Adani_Web_Comp
 ```
 3. Create a virtual environment and activate it (Windows)
 ```bash
@@ -116,11 +116,8 @@ python manage.py makemigrations
 ```bash
 python manage.py migrate
 ```
-6. Create admin/superuser
-```bash
-python manage.py createsuperuser
-```
-7. Finally run the project
+
+6. Finally run the project
 ```bash
 python manage.py runserver
 ```
